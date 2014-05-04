@@ -118,78 +118,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="SparkFun-Connectors">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find connectors and sockets- basically anything that can be plugged into or onto.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="RJ11-6">
-<wire x1="11.938" y1="-5.207" x2="11.938" y2="10.414" width="0.2032" layer="51"/>
-<wire x1="11.938" y1="10.414" x2="-1.778" y2="10.414" width="0.2032" layer="51"/>
-<wire x1="-1.778" y1="10.414" x2="-1.778" y2="-5.207" width="0.2032" layer="51"/>
-<wire x1="11.938" y1="-5.207" x2="-1.778" y2="-5.207" width="0.2032" layer="51"/>
-<wire x1="-1.778" y1="-5.207" x2="-1.778" y2="-8.128" width="0.2032" layer="51"/>
-<wire x1="-1.778" y1="-8.128" x2="11.938" y2="-8.128" width="0.2032" layer="51"/>
-<wire x1="11.938" y1="-8.128" x2="11.938" y2="-5.207" width="0.2032" layer="51"/>
-<pad name="1" x="1.905" y="8.89" drill="1.016" diameter="1.8796"/>
-<pad name="2" x="3.175" y="6.35" drill="1.016" diameter="1.8796"/>
-<pad name="3" x="4.445" y="8.89" drill="1.016" diameter="1.8796"/>
-<pad name="4" x="5.715" y="6.35" drill="1.016" diameter="1.8796"/>
-<pad name="5" x="6.985" y="8.89" drill="1.016" diameter="1.8796"/>
-<pad name="6" x="8.255" y="6.35" drill="1.016" diameter="1.8796"/>
-<hole x="0" y="0" drill="3.2512"/>
-<hole x="10.16" y="0" drill="3.2512"/>
-</package>
-</packages>
-<symbols>
-<symbol name="M06">
-<wire x1="1.27" y1="-7.62" x2="-5.08" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="-1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
-<wire x1="-1.27" y1="-2.54" x2="0" y2="-2.54" width="0.6096" layer="94"/>
-<wire x1="-1.27" y1="-5.08" x2="0" y2="-5.08" width="0.6096" layer="94"/>
-<wire x1="-5.08" y1="10.16" x2="-5.08" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-7.62" x2="1.27" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="10.16" x2="1.27" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="-1.27" y1="5.08" x2="0" y2="5.08" width="0.6096" layer="94"/>
-<wire x1="-1.27" y1="2.54" x2="0" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="-1.27" y1="7.62" x2="0" y2="7.62" width="0.6096" layer="94"/>
-<text x="-5.08" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-5.08" y="10.922" size="1.778" layer="95">&gt;NAME</text>
-<pin name="1" x="5.08" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="5.08" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="3" x="5.08" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="4" x="5.08" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="5" x="5.08" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="6" x="5.08" y="7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="RJ11-6" prefix="J">
-<description>&lt;b&gt;RJ11 Jack&lt;/b&gt;
-Simple 6 pin RJ11 jack. Commonly found on CAT3 devices and Microchip programmers. SKU: PRT-00132</description>
-<gates>
-<gate name="G$1" symbol="M06" x="0" y="0"/>
-</gates>
-<devices>
-<device name="PTH" package="RJ11-6">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Passives">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find resistors, capacitors, inductors, test points, jumper pads, etc.&lt;br&gt;&lt;br&gt;
@@ -350,40 +278,6 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="supply1">
-<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
- GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
- Please keep in mind, that these devices are necessary for the
- automatic wiring of the supply signals.&lt;p&gt;
- The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
- In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
- &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="GNDA">
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.0922" y1="-0.508" x2="1.0922" y2="-0.508" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="GNDA" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GNDA" prefix="GND">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="GNDA" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="LaunchFET">
 <packages>
 <package name="EASYMSP-6PIN">
@@ -486,6 +380,35 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <vertex x="-1.27" y="0.2413"/>
 </polygon>
 </package>
+<package name="MOLEX_RJ45_TH">
+<hole x="0" y="0" drill="3.3"/>
+<hole x="10.16" y="0" drill="3.3"/>
+<pad name="RST" x="8.255" y="6.35" drill="0.9"/>
+<pad name="TX" x="5.715" y="6.35" drill="0.9"/>
+<pad name="GND" x="3.175" y="6.35" drill="0.9"/>
+<pad name="RX" x="6.985" y="8.89" drill="0.9"/>
+<pad name="VCC" x="4.445" y="8.89" drill="0.9"/>
+<pad name="TEST" x="1.905" y="8.89" drill="0.9"/>
+<wire x1="12.06" y1="-7.8" x2="-1.72" y2="-7.8" width="0.127" layer="21"/>
+<wire x1="-1.72" y1="-7.8" x2="-1.72" y2="10.6" width="0.127" layer="21"/>
+<wire x1="-1.72" y1="10.6" x2="12.06" y2="10.6" width="0.127" layer="21"/>
+<wire x1="12.06" y1="10.6" x2="12.06" y2="-7.8" width="0.127" layer="21"/>
+</package>
+<package name="MOLEX_RJ45_SMD">
+<hole x="0" y="0" drill="3.25"/>
+<hole x="10.16" y="0" drill="3.25"/>
+<smd name="TEST" x="1.95" y="10.27" dx="0.76" dy="6.35" layer="1"/>
+<smd name="GND" x="3.22" y="10.27" dx="0.76" dy="6.35" layer="1"/>
+<smd name="VCC" x="4.49" y="10.27" dx="0.76" dy="6.35" layer="1"/>
+<smd name="TX" x="5.76" y="10.27" dx="0.76" dy="6.35" layer="1"/>
+<smd name="RX" x="7.03" y="10.27" dx="0.76" dy="6.35" layer="1"/>
+<smd name="RST" x="8.3" y="10.27" dx="0.76" dy="6.35" layer="1"/>
+<wire x1="-2" y1="-7.8" x2="-2" y2="9" width="0.127" layer="21"/>
+<wire x1="-2" y1="9" x2="12" y2="9" width="0.127" layer="21"/>
+<wire x1="12" y1="9" x2="12" y2="-7.8" width="0.127" layer="21"/>
+<wire x1="12" y1="-7.8" x2="-2" y2="-7.8" width="0.127" layer="21"/>
+<rectangle x1="-2" y1="-8" x2="12" y2="9" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="6-PIN">
@@ -501,6 +424,18 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <wire x1="-5.334" y1="-7.62" x2="-5.334" y2="10.16" width="0.254" layer="97"/>
 <text x="-5.334" y="11.176" size="1.778" layer="95">&gt;Name</text>
 <text x="-5.334" y="-10.16" size="1.778" layer="96">&gt;Value</text>
+</symbol>
+<symbol name="RJ-45">
+<pin name="TEST" x="-10.16" y="12.7" length="middle"/>
+<pin name="GND" x="-10.16" y="10.16" length="middle"/>
+<pin name="VCC" x="-10.16" y="7.62" length="middle"/>
+<pin name="TX" x="-10.16" y="5.08" length="middle"/>
+<pin name="RX" x="-10.16" y="2.54" length="middle"/>
+<pin name="RST" x="-10.16" y="0" length="middle"/>
+<wire x1="-5.08" y1="15.24" x2="-5.08" y2="-2.54" width="0.254" layer="97"/>
+<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="97"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="15.24" width="0.254" layer="97"/>
+<wire x1="5.08" y1="15.24" x2="-5.08" y2="15.24" width="0.254" layer="97"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -569,6 +504,41 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="RJ-45">
+<gates>
+<gate name="G$1" symbol="RJ-45" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="THR_HOLE" package="MOLEX_RJ45_TH">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="TEST" pad="TEST"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD" package="MOLEX_RJ45_SMD">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="TEST" pad="TEST"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MODEL" value="95501-6669" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -581,160 +551,91 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 </class>
 </classes>
 <parts>
-<part name="J2" library="SparkFun-Connectors" deviceset="RJ11-6" device="PTH"/>
 <part name="JP2" library="SparkFun-Passives" deviceset="JUMPER-2" device="PTH_LOCK"/>
 <part name="U$4" library="LaunchFET" deviceset="6-PIN-ICSP" device="EASY-MSP"/>
-<part name="U$5" library="LaunchFET" deviceset="6-PIN-ICSP" device="SAFE-MSP"/>
-<part name="GND_FET4" library="supply1" deviceset="GNDA" device="" value=""/>
-<part name="GND_FET1" library="supply1" deviceset="GNDA" device="" value=""/>
+<part name="U$1" library="LaunchFET" deviceset="RJ-45" device="SMD"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="J2" gate="G$1" x="142.24" y="53.34" rot="R180"/>
-<instance part="JP2" gate="A" x="83.82" y="71.12" rot="R180"/>
-<instance part="U$4" gate="G$1" x="55.88" y="50.8"/>
-<instance part="U$5" gate="G$1" x="127" y="12.7" rot="R270"/>
-<instance part="GND_FET4" gate="1" x="35.56" y="33.02"/>
-<instance part="GND_FET1" gate="1" x="116.84" y="35.56"/>
+<instance part="JP2" gate="A" x="0" y="-7.62" rot="R180"/>
+<instance part="U$4" gate="G$1" x="-15.24" y="27.94" rot="R90"/>
+<instance part="U$1" gate="G$1" x="30.48" y="-12.7"/>
 </instances>
 <busses>
 </busses>
 <nets>
+<net name="GND" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="-10.16" y1="15.24" x2="-10.16" y2="17.526" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="17.526" x2="-10.16" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="-2.54" x2="20.32" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="GND"/>
+<junction x="-10.16" y="17.526"/>
+</segment>
+</net>
+<net name="TEST" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="TEST"/>
+<wire x1="20.32" y1="0" x2="-17.78" y2="0" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="15.24" x2="-17.78" y2="17.526" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="TEST"/>
+<wire x1="-17.78" y1="17.526" x2="-17.78" y2="0" width="0.1524" layer="91"/>
+<junction x="-17.78" y="17.526"/>
+</segment>
+</net>
+<net name="TX" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="TX"/>
+<wire x1="20.32" y1="-7.62" x2="12.7" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="15.24" x2="-20.32" y2="17.526" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="17.526" x2="-20.32" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="7.62" x2="12.7" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="7.62" x2="12.7" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="TX"/>
+<junction x="-20.32" y="17.526"/>
+</segment>
+</net>
+<net name="RX" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="RX"/>
+<wire x1="20.32" y1="-10.16" x2="10.16" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="15.24" x2="-22.86" y2="17.526" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="17.526" x2="-22.86" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="5.08" x2="10.16" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="RX"/>
+<junction x="-22.86" y="17.526"/>
+</segment>
+</net>
+<net name="RST" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="RST"/>
+<wire x1="-15.24" y1="15.24" x2="-15.24" y2="17.526" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="17.526" x2="-15.24" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="-12.7" x2="20.32" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="RESET"/>
+<junction x="-15.24" y="17.526"/>
+</segment>
+</net>
 <net name="VCC_TARGET" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="6"/>
-<wire x1="137.16" y1="45.72" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
-<label x="114.3" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="124.46" y1="45.72" x2="114.3" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="27.94" x2="124.46" y2="23.114" width="0.1524" layer="91"/>
-<junction x="124.46" y="45.72"/>
-<pinref part="U$5" gate="G$1" pin="VCC"/>
-<wire x1="124.46" y1="23.114" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
-<junction x="124.46" y="23.114"/>
-</segment>
-<segment>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
 <pinref part="JP2" gate="A" pin="1"/>
-<wire x1="83.82" y1="73.66" x2="114.3" y2="73.66" width="0.1524" layer="91"/>
-<label x="114.3" y="73.66" size="1.778" layer="95"/>
+<wire x1="20.32" y1="-5.08" x2="0" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC_FET" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="2"/>
-<wire x1="58.42" y1="73.66" x2="81.28" y2="73.66" width="0.1524" layer="91"/>
-<label x="58.42" y="73.66" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<wire x1="45.72" y1="48.26" x2="45.466" y2="48.26" width="0.1524" layer="91"/>
-<label x="35.56" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-2.54" y1="-5.08" x2="-12.7" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="-5.08" x2="-12.7" y2="17.526" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="VCC"/>
-<wire x1="45.466" y1="48.26" x2="35.56" y2="48.26" width="0.1524" layer="91"/>
-<junction x="45.466" y="48.26"/>
-</segment>
-</net>
-<net name="GND" class="0">
-<segment>
-<wire x1="45.72" y1="45.72" x2="45.466" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="45.466" y1="45.72" x2="35.56" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="45.72" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="GND_FET4" gate="1" pin="GNDA"/>
-<pinref part="U$4" gate="G$1" pin="GND"/>
-<junction x="45.466" y="45.72"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="5"/>
-<wire x1="116.84" y1="48.26" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="48.26" x2="137.16" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="38.1" x2="116.84" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="27.94" x2="121.92" y2="23.114" width="0.1524" layer="91"/>
-<junction x="121.92" y="48.26"/>
-<pinref part="U$5" gate="G$1" pin="GND"/>
-<wire x1="121.92" y1="23.114" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
-<junction x="121.92" y="23.114"/>
-<pinref part="GND_FET1" gate="1" pin="GNDA"/>
-</segment>
-</net>
-<net name="TEST" class="0">
-<segment>
-<wire x1="45.72" y1="53.34" x2="45.466" y2="53.34" width="0.1524" layer="91"/>
-<label x="35.56" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$4" gate="G$1" pin="TEST"/>
-<wire x1="45.466" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
-<junction x="45.466" y="53.34"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="2"/>
-<label x="114.3" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="137.16" y1="55.88" x2="129.54" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="55.88" x2="114.3" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="27.94" x2="129.54" y2="23.114" width="0.1524" layer="91"/>
-<junction x="129.54" y="55.88"/>
-<pinref part="U$5" gate="G$1" pin="TEST"/>
-<wire x1="129.54" y1="23.114" x2="129.54" y2="55.88" width="0.1524" layer="91"/>
-<junction x="129.54" y="23.114"/>
-</segment>
-</net>
-<net name="RESET" class="0">
-<segment>
-<wire x1="45.72" y1="50.8" x2="45.466" y2="50.8" width="0.1524" layer="91"/>
-<label x="35.56" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$4" gate="G$1" pin="RESET"/>
-<wire x1="45.466" y1="50.8" x2="35.56" y2="50.8" width="0.1524" layer="91"/>
-<junction x="45.466" y="50.8"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="4"/>
-<label x="114.3" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="114.3" y1="50.8" x2="127" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="127" y1="50.8" x2="137.16" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="127" y1="27.94" x2="127" y2="23.114" width="0.1524" layer="91"/>
-<junction x="127" y="50.8"/>
-<pinref part="U$5" gate="G$1" pin="RESET"/>
-<wire x1="127" y1="23.114" x2="127" y2="50.8" width="0.1524" layer="91"/>
-<junction x="127" y="23.114"/>
-</segment>
-</net>
-<net name="RX" class="0">
-<segment>
-<wire x1="45.72" y1="58.42" x2="45.466" y2="58.42" width="0.1524" layer="91"/>
-<label x="35.56" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$4" gate="G$1" pin="RX"/>
-<wire x1="45.466" y1="58.42" x2="35.56" y2="58.42" width="0.1524" layer="91"/>
-<junction x="45.466" y="58.42"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="3"/>
-<wire x1="114.3" y1="53.34" x2="134.62" y2="53.34" width="0.1524" layer="91"/>
-<label x="114.3" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="134.62" y1="53.34" x2="137.16" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="27.94" x2="134.62" y2="23.114" width="0.1524" layer="91"/>
-<junction x="134.62" y="53.34"/>
-<pinref part="U$5" gate="G$1" pin="RX"/>
-<wire x1="134.62" y1="23.114" x2="134.62" y2="53.34" width="0.1524" layer="91"/>
-<junction x="134.62" y="23.114"/>
-</segment>
-</net>
-<net name="TX" class="0">
-<segment>
-<wire x1="45.72" y1="55.88" x2="45.466" y2="55.88" width="0.1524" layer="91"/>
-<label x="35.56" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$4" gate="G$1" pin="TX"/>
-<wire x1="45.466" y1="55.88" x2="35.56" y2="55.88" width="0.1524" layer="91"/>
-<junction x="45.466" y="55.88"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="1"/>
-<label x="114.3" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="114.3" y1="58.42" x2="132.08" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="58.42" x2="137.16" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="27.94" x2="132.08" y2="23.114" width="0.1524" layer="91"/>
-<junction x="132.08" y="58.42"/>
-<pinref part="U$5" gate="G$1" pin="TX"/>
-<wire x1="132.08" y1="23.114" x2="132.08" y2="58.42" width="0.1524" layer="91"/>
-<junction x="132.08" y="23.114"/>
+<wire x1="-12.7" y1="17.526" x2="-12.7" y2="15.24" width="0.1524" layer="91"/>
+<junction x="-12.7" y="17.526"/>
 </segment>
 </net>
 </nets>
