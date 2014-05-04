@@ -155,21 +155,25 @@
 <pad name="3" x="0" y="2.54" drill="0.5" rot="R270"/>
 <pad name="4" x="0" y="1.27" drill="0.5" rot="R270"/>
 <pad name="5" x="0" y="0" drill="0.5" rot="R270"/>
-<text x="6.35" y="0" size="0.8128" layer="25" rot="R180">Vcc</text>
-<text x="-2.54" y="5.08" size="0.8128" layer="25" rot="R180">Vcc</text>
-<text x="6.35" y="5.08" size="0.8128" layer="25" rot="R180">GND</text>
-<text x="-2.54" y="0" size="0.8128" layer="25" rot="R180">GND</text>
-<text x="6.35" y="3.81" size="0.8128" layer="25" rot="R180">RST</text>
-<text x="-2.54" y="1.27" size="0.8128" layer="25" rot="R180">RST</text>
-<text x="6.35" y="1.27" size="0.8128" layer="25" rot="R180">TEST</text>
-<text x="-2.54" y="3.81" size="0.8128" layer="25" rot="R180">TEST</text>
-<text x="-2.54" y="2.54" size="0.8128" layer="25" rot="R180">TX</text>
-<text x="6.35" y="2.54" size="0.8128" layer="25" rot="R180">RX</text>
+<text x="5.08" y="0" size="0.8128" layer="25" rot="R180">Vcc</text>
+<text x="-1.905" y="5.08" size="0.8128" layer="25" rot="R180">Vcc</text>
+<text x="5.08" y="5.08" size="0.8128" layer="25" rot="R180">GND</text>
+<text x="-1.905" y="0" size="0.8128" layer="25" rot="R180">GND</text>
+<text x="5.08" y="3.81" size="0.8128" layer="25" rot="R180">RST</text>
+<text x="-1.905" y="1.27" size="0.8128" layer="25" rot="R180">RST</text>
+<text x="5.715" y="1.27" size="0.8128" layer="25" rot="R180">TEST</text>
+<text x="-1.905" y="3.81" size="0.8128" layer="25" rot="R180">TEST</text>
+<text x="-1.905" y="2.54" size="0.8128" layer="25" rot="R180">TX</text>
+<text x="4.445" y="2.54" size="0.8128" layer="25" rot="R180">RX</text>
+<wire x1="-1.27" y1="6.35" x2="2.54" y2="6.35" width="0.4064" layer="21"/>
+<wire x1="2.54" y1="6.35" x2="2.54" y2="-1.27" width="0.4064" layer="21"/>
+<wire x1="2.54" y1="-1.27" x2="-1.27" y2="-1.27" width="0.4064" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="6.35" width="0.4064" layer="21"/>
+<text x="-1.27" y="-2.54" size="0.8128" layer="25">ICSP</text>
 <wire x1="-1.27" y1="6.35" x2="2.54" y2="6.35" width="0.4064" layer="22"/>
 <wire x1="2.54" y1="6.35" x2="2.54" y2="-1.27" width="0.4064" layer="22"/>
 <wire x1="2.54" y1="-1.27" x2="-1.27" y2="-1.27" width="0.4064" layer="22"/>
 <wire x1="-1.27" y1="-1.27" x2="-1.27" y2="6.35" width="0.4064" layer="22"/>
-<text x="-1.27" y="-2.54" size="0.8128" layer="25">ICSP</text>
 </package>
 </packages>
 <symbols>
